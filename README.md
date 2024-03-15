@@ -1,22 +1,25 @@
-**Django JWT Authentication Project**
+###### Django JWT Authentication Project
+
 This repository contains a Django project that implements JWT (JSON Web Token) authentication. It's designed to provide a straightforward example of how to secure your Django REST APIs using JWT.
 
-**Prerequisites**
+### Prerequisites
+
 Before you begin, ensure you have met the following requirements:
 
 - Python 3.8 or higher
 - pip (Python package installer)
 - Virtual environment (recommended)
 
-**Setting Up the Project**
+### Setting Up the Project
+
 To get this project up and running on your local machine, follow these steps:
 
-1. Clone the Repository
+1. **Clone the Repository**
 
 git clone git@github.com:waqasidrees07/django-token-authentication.git
 cd django-token-authentication
 
-2. Create and Activate a Virtual Environment
+2. **Create and Activate a Virtual Environment**
 
 - For Unix/macOS:
 python3 -m venv env
@@ -26,18 +29,21 @@ source env/bin/activate
 python -m venv env
 .\env\Scripts\activate
 
-3. Install Required Packages
+3. **Install Required Packages**
+
 pip install -r requirements.txt
 
-4. Set Up Environment Variables
+4. **Set Up Environment Variables**
+   
 Copy the .env_example file to a new file named .env.
 Modify the .env file to include your specific settings (e.g., Email data, DATABASE data).
 
-5. Run Migrations
+5. **Run Migrations**
+
 python manage.py migrate
 
+6. **Run the Development Server**
 
-6. Run the Development Server
 python manage.py runserver
 Your Django project should now be running at http://localhost:8000.
 
