@@ -54,11 +54,13 @@ python manage.py runserver
 Your Django project should now be running at http://localhost:8000.
 
 **Using the API**
+
 To interact with the API, you can use Postman. A Postman collection has been provided to help you get started with the available endpoints.
 
 Import Postman Collection: https://api.postman.com/collections/22964694-6347544f-5ceb-4a4e-80d1-6f60b39136fd?access_key=PMAT-01HS0J2SKDAQE25F6PK2JX4GYA
 
 **Contributing**
+
 Contributions to this project are welcome! To contribute, please follow these steps:
 
 Fork the repository.
@@ -68,4 +70,5 @@ Push to the branch (git push origin feature/AmazingFeature).
 Open a pull request.
 
 **Acknowledgments**
+
 Thank you to everyone who has contributed to making this project better.
