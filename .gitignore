@@ -1,0 +1,5 @@
+.env
+tokenauthenv/
+venv/
+virtualenv/
+__pycache__/
